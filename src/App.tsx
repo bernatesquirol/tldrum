@@ -1,8 +1,8 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import { Tldraw } from '@tldraw/tldraw'
 import '@tldraw/tldraw/tldraw.css'
-import { CardShapeTool } from './CardShape/CardShapeTool'
-import { CardShapeUtil } from './CardShape/CardShapeUtil'
+import { CardShapeTool } from './components/CardShape/CardShapeTool'
+import { CardShapeUtil } from './components/CardShape/CardShapeUtil'
 import { uiOverrides } from './ui-overrides'
 
 const customShapeUtils = [CardShapeUtil]
